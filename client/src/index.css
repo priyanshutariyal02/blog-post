@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input {
+  width: 25rem;
+  height: 5rem;
+  padding-left: 15px;
+  outline: none;
+  color: rgb(46, 44, 44);
+  background-color: #f3f3f3;
+}
+textarea {
+  width: 25rem;
+  height: 15rem;
+  padding-left: 15px;
+  padding-top: 5px;
+  outline: none;
+  color: rgb(46, 44, 44);
+  background-color: #f3f3f3;
+}
+
+@media only screen and (max-width: 796px) {
+  .blogs {
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .blogs .blog-post {
+    width: 20rem;
+  }
+  .blog-create {
+    width: 20rem;
+    height: 35rem;
+  }
+  .blog-create input,
+  textarea {
+    width: 17rem;
+  }
+}
